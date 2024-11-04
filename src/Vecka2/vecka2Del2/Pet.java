@@ -15,7 +15,7 @@ public class Pet {
     }
 
 
-    //Skapa en ny metod i klassen pet som reuturnerar attributet name
+    //Skapa en ny metod i klassen pet som returnerar attributet name
     public String getName() {
         return name;
 
