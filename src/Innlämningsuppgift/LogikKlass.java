@@ -15,7 +15,7 @@ public class LogikKlass {
     }
 
     public int amountOfCharacters() {
-        return myText.length();
+        return myText.length() - (int)myText.lines().count();
     }
 
     public int amountOfLines() {

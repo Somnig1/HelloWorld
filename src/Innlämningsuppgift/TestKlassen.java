@@ -13,7 +13,7 @@ public class TestKlassen {
 
         LogikKlass.Result result = logikKlass.getMyTextStats();
 
-        assertEquals(17, result.getCharacters());
+        assertEquals(14, result.getCharacters());
         assertEquals(3, result.getLines());
 
     }
@@ -39,7 +39,7 @@ public class TestKlassen {
 
         LogikKlass.Result result = logikKlass.getMyTextStats();
 
-        assertEquals(4, result.getCharacters());
+        assertEquals(0, result.getCharacters());
         assertEquals(4, result.getLines());
     }
 
