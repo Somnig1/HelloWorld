@@ -1,6 +1,7 @@
 package Automation.oopB;
 
-import Everything.automation.oopA.AClass;
+
+import Automation.oopA.AClass;
 
 public class BMain {
     public static void main(String[] args) {
